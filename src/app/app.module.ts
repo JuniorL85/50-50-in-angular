@@ -8,13 +8,15 @@ import { SharedModule } from './shared/shared.module';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
+import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlurryLoadingComponent,
     VerticalSliderComponent,
-    BackgroundSliderComponent
+    BackgroundSliderComponent,
+    RandomChoicePickerComponent
   ],
   imports: [
     BrowserModule,
