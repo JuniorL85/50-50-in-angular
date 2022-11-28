@@ -10,6 +10,7 @@ import { VerticalSliderComponent } from './components/vertical-slider/vertical-s
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
+import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExpandingCardsComponent } from './components/expanding-cards/expanding-
     VerticalSliderComponent,
     BackgroundSliderComponent,
     RandomChoicePickerComponent,
-    ExpandingCardsComponent
+    ExpandingCardsComponent,
+    ProgressStepsComponent
   ],
   imports: [
     BrowserModule,
