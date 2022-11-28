@@ -9,6 +9,7 @@ import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loadi
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
+import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RandomChoicePickerComponent } from './components/random-choice-picker/r
     BlurryLoadingComponent,
     VerticalSliderComponent,
     BackgroundSliderComponent,
-    RandomChoicePickerComponent
+    RandomChoicePickerComponent,
+    ExpandingCardsComponent
   ],
   imports: [
     BrowserModule,
