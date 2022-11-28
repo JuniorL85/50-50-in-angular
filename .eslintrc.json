@@ -1,0 +1,67 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "@angular-eslint/directive-selector": [
+          "warn",
+          {
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
+          }
+        ],
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
+          }
+        ],
+        "eqeqeq": [
+          "error",
+          "always"
+        ],
+        "curly": "error",
+        "no-duplicate-imports": "error",
+        "no-var": "error",
+        "no-alert": "error",
+        "no-empty": "error",
+        "no-extra-semi": "error",
+        "prefer-const": "error",
+        "yoda": "error",
+        "spaced-comment": ["error", "always", { "exceptions": ["-", "+", "**"]}],
+        "arrow-spacing": ["error", { "before": true, "after": true }],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "key-spacing": ["error", { "beforeColon": false }],
+        "semi-spacing": ["error", {"before": false, "after": true}],
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "object-curly-spacing": ["error", "always", { "arraysInObjects": false, "objectsInObjects": false }],
+        "no-trailing-spaces": ["error", { "ignoreComments": true }],
+        "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+        "space-in-parens": ["error", "never"],
+        "space-infix-ops": "error"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}
