@@ -11,6 +11,7 @@ import { BackgroundSliderComponent } from './components/background-slider/backgr
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
+import { RotatingNavigationComponent } from './components/rotating-navigation/rotating-navigation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProgressStepsComponent } from './components/progress-steps/progress-ste
     BackgroundSliderComponent,
     RandomChoicePickerComponent,
     ExpandingCardsComponent,
-    ProgressStepsComponent
+    ProgressStepsComponent,
+    RotatingNavigationComponent
   ],
   imports: [
     BrowserModule,
