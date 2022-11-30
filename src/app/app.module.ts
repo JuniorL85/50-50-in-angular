@@ -12,6 +12,8 @@ import { RandomChoicePickerComponent } from './components/random-choice-picker/r
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 import { RotatingNavigationComponent } from './components/rotating-navigation/rotating-navigation.component';
+import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
+import { ScrollAnimationComponent } from './components/scroll-animation/scroll-animation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { RotatingNavigationComponent } from './components/rotating-navigation/ro
     RandomChoicePickerComponent,
     ExpandingCardsComponent,
     ProgressStepsComponent,
-    RotatingNavigationComponent
+    RotatingNavigationComponent,
+    HiddenSearchWidgetComponent,
+    ScrollAnimationComponent
   ],
   imports: [
     BrowserModule,
