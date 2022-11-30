@@ -19,6 +19,13 @@
 }
 
 h1 {
+  color: #b0bec5;
   font-size: 80px;
   font-style: italic;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+h1.show {
+  opacity: .9;
 }
