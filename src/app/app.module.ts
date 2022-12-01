@@ -16,6 +16,7 @@ import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/h
 import { ScrollAnimationComponent } from './components/scroll-animation/scroll-animation.component';
 import { SplitLandingPageComponent } from './components/split-landing-page/split-landing-page.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
+import { FormWaveComponent } from './components/form-wave/form-wave.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StartPageComponent } from './components/start-page/start-page.component
     HiddenSearchWidgetComponent,
     ScrollAnimationComponent,
     SplitLandingPageComponent,
-    StartPageComponent
+    StartPageComponent,
+    FormWaveComponent
   ],
   imports: [
     BrowserModule,

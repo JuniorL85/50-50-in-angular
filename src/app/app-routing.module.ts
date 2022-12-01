@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
+import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'blurry-loading', component: BlurryLoadingComponent },
   { path: 'scroll-animation', component: ScrollAnimationComponent },
   { path: 'split-landing', component: SplitLandingPageComponent },
+  { path: 'form-wave', component: FormWaveComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];
