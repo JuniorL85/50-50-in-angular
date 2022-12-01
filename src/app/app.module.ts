@@ -14,6 +14,8 @@ import { ProgressStepsComponent } from './components/progress-steps/progress-ste
 import { RotatingNavigationComponent } from './components/rotating-navigation/rotating-navigation.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { ScrollAnimationComponent } from './components/scroll-animation/scroll-animation.component';
+import { SplitLandingPageComponent } from './components/split-landing-page/split-landing-page.component';
+import { StartPageComponent } from './components/start-page/start-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ScrollAnimationComponent } from './components/scroll-animation/scroll-a
     ProgressStepsComponent,
     RotatingNavigationComponent,
     HiddenSearchWidgetComponent,
-    ScrollAnimationComponent
+    ScrollAnimationComponent,
+    SplitLandingPageComponent,
+    StartPageComponent
   ],
   imports: [
     BrowserModule,

@@ -24,6 +24,7 @@ h1 {
   font-style: italic;
   opacity: 0;
   transition: opacity 2s ease-in;
+  text-transform: uppercase;
 }
 
 h1.show {

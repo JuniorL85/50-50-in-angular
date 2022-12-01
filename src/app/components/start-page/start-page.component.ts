@@ -19,6 +19,6 @@ export class StartPageComponent implements OnInit {
     }, 1000);
   }
 
-  title = '50 DAYS 50 PROJECTS';
+  title = '50 days 50 projects';
 
 }
