@@ -1,1 +1,25 @@
-<p>form-wave works!</p>
+<div class="container">
+  <h1>Please Login</h1>
+  <form>
+    <div class="form-control">
+      <input type="text" required (click)="onInputClick()">
+      <label (click)="onInputClick()">Email</label>
+      <!-- <label>
+        <span style="transition-delay: 0ms; color: lightblue; transform: translateY(-30px);">E</span>
+          <span style="transition-delay: 50ms; color: lightblue; transform: translateY(-30px);">m</span>
+          <span style="transition-delay: 100ms; color: lightblue; transform: translateY(-30px);">a</span>
+          <span style="transition-delay: 150ms; color: lightblue; transform: translateY(-30px);">i</span>
+          <span style="transition-delay: 200ms; color: lightblue; transform: translateY(-30px);">l</span>
+    </label> -->
+    </div>
+
+    <div class="form-control">
+      <input type="password" required>
+      <label>Password</label>
+    </div>
+
+    <button class="btn">Login</button>
+
+    <p class="text">Don't have an account? <a href="#">Register</a> </p>
+  </form>
+</div>
