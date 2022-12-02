@@ -1,0 +1,27 @@
+<audio id="applause">
+  <source src="assets/sounds/applause.mp3">
+</audio>
+<audio id="boo">
+  <source src="assets/sounds/boo.mp3">
+</audio>
+<audio id="gasp" >
+  <source src="assets/sounds/gasp.mp3">
+</audio>
+<audio id="tada" >
+  <source src="assets/sounds/tada.mp3">
+</audio>
+<audio id="victory" >
+  <source src="assets/sounds/victory.mp3">
+</audio>
+<audio id="wrong" >
+  <source src="assets/sounds/wrong.mp3">
+</audio>
+
+<div id="buttons">
+  <button class="btn" (click)="playSound('applause')">Applause</button>
+  <button class="btn" (click)="playSound('boo')">Boo</button>
+  <button class="btn" (click)="playSound('gasp')">Gasp</button>
+  <button class="btn" (click)="playSound('tada')">Tada</button>
+  <button class="btn" (click)="playSound('victory')">Victory</button>
+  <button class="btn" (click)="playSound('wrong')">Wrong</button>
+</div>
