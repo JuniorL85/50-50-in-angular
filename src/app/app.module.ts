@@ -20,6 +20,7 @@ import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { SoundBoardComponent } from './components/sound-board/sound-board.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     StartPageComponent,
     FormWaveComponent,
     SoundBoardComponent,
-    DadJokesComponent
+    DadJokesComponent,
+    EventKeycodesComponent
   ],
   imports: [
     BrowserModule,

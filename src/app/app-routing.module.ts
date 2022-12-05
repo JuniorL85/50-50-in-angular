@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
+import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'form-wave', component: FormWaveComponent },
   { path: 'sound-board', component: SoundBoardComponent },
   { path: 'dad-jokes', component: DadJokesComponent },
+  { path: 'event-keycodes', component: EventKeycodesComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];

@@ -1,0 +1,19 @@
+<div id="insert">
+  <div class="key" *ngIf="noKeyPressed">
+    Press any key to get the keyCode
+  </div>
+  <div *ngIf="!noKeyPressed">
+    <div class="key">
+      {{eventKeys.key === ' ' ? 'Space' : eventKeys.key}}
+      <small>event.key</small>
+    </div>
+    <div class="key" title="You should avoid using this if possible; it's been deprecated for some time. Instead, you should use event.code.">
+      {{eventKeys.keyCode}}
+      <small style="color: red;">event.keyCode</small>
+    </div>
+    <div class="key">
+      {{eventKeys.code}}
+      <small>event.code</small>
+    </div>
+  </div>
+</div>
