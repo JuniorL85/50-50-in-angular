@@ -5,6 +5,7 @@ import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loadi
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
+import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'sound-board', component: SoundBoardComponent },
   { path: 'dad-jokes', component: DadJokesComponent },
   { path: 'event-keycodes', component: EventKeycodesComponent },
+  { path: 'faq-boxes', component: FaqBoxesComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];
