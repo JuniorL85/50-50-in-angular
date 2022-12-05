@@ -10,3 +10,7 @@
 div > button {
   width: 100%;
 }
+
+button:active {
+  transform: scale(0.95);
+}

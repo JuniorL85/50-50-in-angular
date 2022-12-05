@@ -21,7 +21,7 @@ export class SoundBoardComponent {
 
       song.pause()
       song.currentTime = 0;
-  })
+    })
   }
 
 }

@@ -17,6 +17,9 @@ import { ScrollAnimationComponent } from './components/scroll-animation/scroll-a
 import { SplitLandingPageComponent } from './components/split-landing-page/split-landing-page.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
+import { SoundBoardComponent } from './components/sound-board/sound-board.component';
+import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,13 +35,16 @@ import { FormWaveComponent } from './components/form-wave/form-wave.component';
     ScrollAnimationComponent,
     SplitLandingPageComponent,
     StartPageComponent,
-    FormWaveComponent
+    FormWaveComponent,
+    SoundBoardComponent,
+    DadJokesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
