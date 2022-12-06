@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnimatedNavigationComponent } from './components/animated-navigation/animated-navigation.component';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
@@ -20,7 +21,6 @@ import { VerticalSliderComponent } from './components/vertical-slider/vertical-s
 const routes: Routes = [
   { path: '', component: StartPageComponent },
   { path: 'expanding-cards', component: ExpandingCardsComponent },
-  { path: 'random-choice-picker', component: RandomChoicePickerComponent },
   { path: 'progress-steps', component: ProgressStepsComponent },
   { path: 'rotating-navigation', component: RotatingNavigationComponent },
   { path: 'hidden-search', component: HiddenSearchWidgetComponent },
@@ -32,6 +32,8 @@ const routes: Routes = [
   { path: 'dad-jokes', component: DadJokesComponent },
   { path: 'event-keycodes', component: EventKeycodesComponent },
   { path: 'faq-boxes', component: FaqBoxesComponent },
+  { path: 'random-choice-picker', component: RandomChoicePickerComponent },
+  { path: 'animated-navigation', component: AnimatedNavigationComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];
