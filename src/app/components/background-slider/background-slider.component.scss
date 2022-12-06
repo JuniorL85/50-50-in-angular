@@ -65,9 +65,9 @@
 }
 
 .left-arrow {
-  left: 15vw;
+  left: calc(15vw - -60px);
 }
 
 .right-arrow {
-  right: calc(15vw - 165px);
+  right: calc(15vw - 199px);
 }

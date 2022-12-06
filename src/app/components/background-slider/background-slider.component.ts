@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, HostBinding, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-background-slider',
@@ -7,9 +7,11 @@ import { Component, ElementRef, OnInit } from '@angular/core';
 })
 export class BackgroundSliderComponent implements OnInit {
 
+
   constructor(private elRef: ElementRef) {}
 
-  body = document.body;
+  @HostBinding('style.backgroundImage') bodyUrl = '';
+
   slides: any;
 
   activeSlide = 0
@@ -20,7 +22,7 @@ export class BackgroundSliderComponent implements OnInit {
   }
 
   setBgToBody() {
-    this.body.style.backgroundImage = this.slides[this.activeSlide].style.backgroundImage;
+    this.bodyUrl = this.slides[this.activeSlide].style.backgroundImage;
   }
 
   setActiveSlide() {
