@@ -9,6 +9,7 @@ import { ExpandingCardsComponent } from './components/expanding-cards/expanding-
 import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
+import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
 import { RotatingNavigationComponent } from './components/rotating-navigation/rotating-navigation.component';
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'faq-boxes', component: FaqBoxesComponent },
   { path: 'random-choice-picker', component: RandomChoicePickerComponent },
   { path: 'animated-navigation', component: AnimatedNavigationComponent },
+  { path: 'incrementing-counter', component: IncrementingCounterComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];

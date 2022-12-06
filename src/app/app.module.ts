@@ -23,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { AnimatedNavigationComponent } from './components/animated-navigation/animated-navigation.component';
+import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { AnimatedNavigationComponent } from './components/animated-navigation/an
     DadJokesComponent,
     EventKeycodesComponent,
     FaqBoxesComponent,
-    AnimatedNavigationComponent
+    AnimatedNavigationComponent,
+    IncrementingCounterComponent
   ],
   imports: [
     BrowserModule,
