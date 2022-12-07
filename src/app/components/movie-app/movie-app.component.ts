@@ -32,6 +32,16 @@ export class MovieAppComponent implements OnInit {
       })
   }
 
+  getKidsMovies() {
+    this.showError = false;
+    this.movieService.getKidsMovies().subscribe({
+      next: res => {
+      this.movies = res.results;
+      },
+      error: () => this.showError = true
+      })
+  }
+
   getClassByRate(vote: number) {
     if(vote >= 7.5) {
         return 'green'

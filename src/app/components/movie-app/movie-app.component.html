@@ -1,4 +1,5 @@
 <header>
+  <button class="btn" (click)="getKidsMovies()">Kids Movies</button>
   <form id="form">
     <input name="search" type="text" id="search" class="search" placeholder="Search" [(ngModel)]="searchInput" (keydown.enter)="searchMovies($event, searchInput)">
   </form>

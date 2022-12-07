@@ -16,6 +16,22 @@ header {
   background-color: $secondary-color;
 }
 
+.btn {
+  background-color: transparent;
+  color: #7378c5;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #7378c5;
+  color: #fff;
+}
+
 .search {
   background-color: transparent;
   border: 2px solid $primary-color;
