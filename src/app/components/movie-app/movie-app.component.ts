@@ -14,13 +14,22 @@ export class MovieAppComponent implements OnInit {
   imgPath: string = 'https://image.tmdb.org/t/p/w1280';
 
   searchInput: string = '';
+  showError: boolean = false;
 
   constructor(private movieService: MovieService) {}
 
   ngOnInit(): void {
-    this.movieService.getMovies().subscribe(res => {
+    this.getMovies();
+  }
+
+  getMovies() {
+    this.showError = false;
+    this.movieService.getMovies().subscribe({
+      next: res => {
       this.movies = res.results;
-    })
+      },
+      error: () => this.showError = true
+      })
   }
 
   getClassByRate(vote: number) {
@@ -33,12 +42,21 @@ export class MovieAppComponent implements OnInit {
     }
 }
 
-searchMovies(event: any, searchInput: string) {
-  event.preventDefault();
-  this.movieService.searchMovies(searchInput).subscribe(res => {
-    this.movies = res.results;
-    this.searchInput = '';
-  })
-}
+  searchMovies(event: any, searchInput: string) {
+    event.preventDefault();
+
+    if (searchInput && searchInput !== '') {
+      this.showError = false;
+      this.movieService.searchMovies(searchInput).subscribe({
+        next: res => {
+        this.movies = res.results;
+        this.searchInput = '';
+        },
+        error: () => this.showError = true
+        })
+    } else {
+      this.getMovies();
+    }
+  }
 
 }

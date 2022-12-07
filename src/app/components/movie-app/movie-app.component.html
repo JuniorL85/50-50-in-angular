@@ -4,8 +4,9 @@
   </form>
 </header>
 
-<main id="main">
-  <div class="movie" *ngFor="let movie of movies">
+<app-error-message [bgColor]="'#22254b'" *ngIf="showError"></app-error-message>
+<main id="main" *ngIf="!showError">
+  <div class="movie" *ngFor="let movie of movies" >
     <img src="{{imgPath + movie.poster_path}}" alt="{{movie.title}}">
     <div class="movie-info">
     <h3>{{movie.title}}</h3>

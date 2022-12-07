@@ -27,6 +27,7 @@ import { IncrementingCounterComponent } from './components/incrementing-counter/
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { MovieAppComponent } from './components/movie-app/movie-app.component';
 import { FormsModule } from '@angular/forms';
+import { ErrorMessageComponent } from './components/error-message/error-message.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { FormsModule } from '@angular/forms';
     AnimatedNavigationComponent,
     IncrementingCounterComponent,
     DrinkWaterComponent,
-    MovieAppComponent
+    MovieAppComponent,
+    ErrorMessageComponent
   ],
   imports: [
     BrowserModule,
@@ -59,6 +61,9 @@ import { FormsModule } from '@angular/forms';
     SharedModule,
     HttpClientModule,
     FormsModule
+  ],
+  exports: [
+    ErrorMessageComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
