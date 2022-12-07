@@ -24,6 +24,7 @@ import { EventKeycodesComponent } from './components/event-keycodes/event-keycod
 import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { AnimatedNavigationComponent } from './components/animated-navigation/animated-navigation.component';
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
+import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { IncrementingCounterComponent } from './components/incrementing-counter/
     EventKeycodesComponent,
     FaqBoxesComponent,
     AnimatedNavigationComponent,
-    IncrementingCounterComponent
+    IncrementingCounterComponent,
+    DrinkWaterComponent
   ],
   imports: [
     BrowserModule,

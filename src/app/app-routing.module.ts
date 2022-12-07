@@ -4,6 +4,7 @@ import { AnimatedNavigationComponent } from './components/animated-navigation/an
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
+import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'random-choice-picker', component: RandomChoicePickerComponent },
   { path: 'animated-navigation', component: AnimatedNavigationComponent },
   { path: 'incrementing-counter', component: IncrementingCounterComponent },
+  { path: 'drink-water', component: DrinkWaterComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];
