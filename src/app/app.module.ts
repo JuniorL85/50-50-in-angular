@@ -25,6 +25,8 @@ import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { AnimatedNavigationComponent } from './components/animated-navigation/animated-navigation.component';
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
+import { MovieAppComponent } from './components/movie-app/movie-app.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,14 +49,16 @@ import { DrinkWaterComponent } from './components/drink-water/drink-water.compon
     FaqBoxesComponent,
     AnimatedNavigationComponent,
     IncrementingCounterComponent,
-    DrinkWaterComponent
+    DrinkWaterComponent,
+    MovieAppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

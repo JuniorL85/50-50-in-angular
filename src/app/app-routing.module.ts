@@ -11,6 +11,7 @@ import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
+import { MovieAppComponent } from './components/movie-app/movie-app.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
 import { RotatingNavigationComponent } from './components/rotating-navigation/rotating-navigation.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'animated-navigation', component: AnimatedNavigationComponent },
   { path: 'incrementing-counter', component: IncrementingCounterComponent },
   { path: 'drink-water', component: DrinkWaterComponent },
+  { path: 'movie-app', component: MovieAppComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
 ];

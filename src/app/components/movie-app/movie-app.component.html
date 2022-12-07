@@ -1,0 +1,19 @@
+<header>
+  <form id="form">
+    <input name="search" type="text" id="search" class="search" placeholder="Search" [(ngModel)]="searchInput" (keydown.enter)="searchMovies($event, searchInput)">
+  </form>
+</header>
+
+<main id="main">
+  <div class="movie" *ngFor="let movie of movies">
+    <img src="{{imgPath + movie.poster_path}}" alt="{{movie.title}}">
+    <div class="movie-info">
+    <h3>{{movie.title}}</h3>
+    <span class="{{getClassByRate(movie.vote_average)}}">{{movie.vote_average}}</span>
+    </div>
+    <div class="overview">
+      <h3>Overview</h3>
+      {{movie.overview}}
+    </div>
+  </div>
+</main>
