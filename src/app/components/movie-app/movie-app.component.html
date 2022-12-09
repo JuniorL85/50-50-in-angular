@@ -1,8 +1,8 @@
 <header>
   <button class="btn" (click)="getKidsMovies()">Kids Movies</button>
-  <form id="form">
+  <div>
     <input name="search" type="text" id="search" class="search" placeholder="Search" [(ngModel)]="searchInput" (keydown.enter)="searchMovies($event, searchInput)">
-  </form>
+  </div>
 </header>
 
 <app-error-message [bgColor]="'#22254b'" *ngIf="showError"></app-error-message>

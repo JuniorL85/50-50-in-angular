@@ -19,6 +19,7 @@ import { ScrollAnimationComponent } from './components/scroll-animation/scroll-a
 import { SoundBoardComponent } from './components/sound-board/sound-board.component';
 import { SplitLandingPageComponent } from './components/split-landing-page/split-landing-page.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
+import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 
 const routes: Routes = [
@@ -40,8 +41,9 @@ const routes: Routes = [
   { path: 'incrementing-counter', component: IncrementingCounterComponent },
   { path: 'drink-water', component: DrinkWaterComponent },
   { path: 'movie-app', component: MovieAppComponent },
-  { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
+  { path: 'theme-clock', component: ThemeClockComponent },
+  { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 
 @NgModule({

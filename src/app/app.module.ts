@@ -28,6 +28,7 @@ import { DrinkWaterComponent } from './components/drink-water/drink-water.compon
 import { MovieAppComponent } from './components/movie-app/movie-app.component';
 import { FormsModule } from '@angular/forms';
 import { ErrorMessageComponent } from './components/error-message/error-message.component';
+import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { ErrorMessageComponent } from './components/error-message/error-message.
     IncrementingCounterComponent,
     DrinkWaterComponent,
     MovieAppComponent,
-    ErrorMessageComponent
+    ErrorMessageComponent,
+    ThemeClockComponent
   ],
   imports: [
     BrowserModule,
