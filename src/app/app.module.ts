@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
+import { FormsModule } from '@angular/forms';
+
+// Components
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
@@ -26,9 +29,9 @@ import { AnimatedNavigationComponent } from './components/animated-navigation/an
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { MovieAppComponent } from './components/movie-app/movie-app.component';
-import { FormsModule } from '@angular/forms';
 import { ErrorMessageComponent } from './components/error-message/error-message.component';
 import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
+import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,8 @@ import { ThemeClockComponent } from './components/theme-clock/theme-clock.compon
     DrinkWaterComponent,
     MovieAppComponent,
     ErrorMessageComponent,
-    ThemeClockComponent
+    ThemeClockComponent,
+    ButtonRippleComponent
   ],
   imports: [
     BrowserModule,

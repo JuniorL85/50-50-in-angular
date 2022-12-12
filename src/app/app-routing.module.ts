@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AnimatedNavigationComponent } from './components/animated-navigation/animated-navigation.component';
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
+import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
@@ -43,6 +44,7 @@ const routes: Routes = [
   { path: 'movie-app', component: MovieAppComponent },
   { path: 'background-slider', component: BackgroundSliderComponent },
   { path: 'theme-clock', component: ThemeClockComponent },
+  { path: 'button-ripple', component: ButtonRippleComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 
