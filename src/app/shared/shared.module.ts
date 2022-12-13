@@ -12,6 +12,8 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
+import { DragDropModule } from '@angular/cdk/drag-drop';
+
 
 
 @NgModule({
@@ -21,13 +23,15 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
     FontAwesomeModule,
     MatSidenavModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    DragDropModule
   ],
   exports: [
     FontAwesomeModule,
     MatSidenavModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    DragDropModule
   ]
 })
 export class SharedModule {

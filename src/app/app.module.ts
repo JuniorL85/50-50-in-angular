@@ -32,6 +32,7 @@ import { MovieAppComponent } from './components/movie-app/movie-app.component';
 import { ErrorMessageComponent } from './components/error-message/error-message.component';
 import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
+import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { ButtonRippleComponent } from './components/button-ripple/button-ripple.
     MovieAppComponent,
     ErrorMessageComponent,
     ThemeClockComponent,
-    ButtonRippleComponent
+    ButtonRippleComponent,
+    DragNDropComponent
   ],
   imports: [
     BrowserModule,

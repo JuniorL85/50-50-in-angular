@@ -5,6 +5,7 @@ import { BackgroundSliderComponent } from './components/background-slider/backgr
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
+import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
@@ -45,6 +46,7 @@ const routes: Routes = [
   { path: 'background-slider', component: BackgroundSliderComponent },
   { path: 'theme-clock', component: ThemeClockComponent },
   { path: 'button-ripple', component: ButtonRippleComponent },
+  { path: 'drag-n-drop', component: DragNDropComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 
