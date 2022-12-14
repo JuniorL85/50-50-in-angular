@@ -15,6 +15,7 @@ export class MovieAppComponent implements OnInit {
 
   searchInput: string = '';
   showError: boolean = false;
+  showLoader: boolean = false;
 
   constructor(private movieService: MovieService) {}
 
@@ -24,11 +25,16 @@ export class MovieAppComponent implements OnInit {
 
   getMovies() {
     this.showError = false;
+    this.showLoader = true;
     this.movieService.getMovies().subscribe({
       next: res => {
       this.movies = res.results;
+      this.showLoader = false;
       },
-      error: () => this.showError = true
+      error: () => {
+        this.showError = true;
+        this.showLoader = false;
+        }
       })
   }
 

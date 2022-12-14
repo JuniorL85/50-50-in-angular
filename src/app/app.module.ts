@@ -34,6 +34,7 @@ import { ThemeClockComponent } from './components/theme-clock/theme-clock.compon
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
+import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { DrawingAppComponent } from './components/drawing-app/drawing-app.compon
     ThemeClockComponent,
     ButtonRippleComponent,
     DragNDropComponent,
-    DrawingAppComponent
+    DrawingAppComponent,
+    KineticLoaderComponent
   ],
   imports: [
     BrowserModule,

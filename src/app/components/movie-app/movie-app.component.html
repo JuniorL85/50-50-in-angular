@@ -6,7 +6,8 @@
 </header>
 
 <app-error-message [bgColor]="'#22254b'" *ngIf="showError"></app-error-message>
-<main id="main" *ngIf="!showError">
+<app-kinetic-loader [bgColor]="'transparent'" [height]="'0'" *ngIf="showLoader"></app-kinetic-loader>
+<main id="main" *ngIf="!showError && !showLoader">
   <div class="movie" *ngFor="let movie of movies" >
     <img src="{{imgPath + movie.poster_path}}" alt="{{movie.title}}">
     <div class="movie-info">

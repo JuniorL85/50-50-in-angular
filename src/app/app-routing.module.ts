@@ -14,6 +14,7 @@ import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
+import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
 import { MovieAppComponent } from './components/movie-app/movie-app.component';
 import { ProgressStepsComponent } from './components/progress-steps/progress-steps.component';
 import { RandomChoicePickerComponent } from './components/random-choice-picker/random-choice-picker.component';
@@ -49,6 +50,7 @@ const routes: Routes = [
   { path: 'button-ripple', component: ButtonRippleComponent },
   { path: 'drag-n-drop', component: DragNDropComponent },
   { path: 'drawing', component: DrawingAppComponent },
+  { path: 'kinetic-loader', component: KineticLoaderComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 
