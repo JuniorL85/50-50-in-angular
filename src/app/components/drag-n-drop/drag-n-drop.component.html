@@ -1,23 +1,23 @@
 <!-- <div style="display: flex;" cdkDropListGroup> -->
 
-  <div class="example-container">
+  <div class="example-container" cdkDropListGroup>
     <div style="width: 300px; margin: 20px;">
       <h2>Att göra</h2>
-      <div #box1="cdkDropList" [cdkDropListData]="testArray" [cdkDropListConnectedTo]="[box2]" class="example-list" cdkDropList (cdkDropListDropped)="drop($event)">
+      <div #box1="cdkDropList" [cdkDropListData]="testArray" class="example-list" cdkDropList (cdkDropListDropped)="drop($event)">
         <div class="example-box" cdkDrag *ngFor="let test of testArray">{{test}}</div>
       </div>
     </div>
 
     <div style="width: 300px; margin: 20px;">
       <h2>Ramverk</h2>
-      <div #box2="cdkDropList" [cdkDropListData]="testArray1" class="example-list" cdkDropList [cdkDropListConnectedTo]="[box3]" (cdkDropListDropped)="drop($event)">
+      <div #box2="cdkDropList" [cdkDropListData]="testArray1" class="example-list" cdkDropList (cdkDropListDropped)="drop($event)">
         <div class="example-box" cdkDrag *ngFor="let test of testArray1">{{test}}</div>
       </div>
     </div>
 
     <div style="width: 300px; margin: 20px;">
       <h2>Sport</h2>
-      <div #box3="cdkDropList" [cdkDropListData]="testArray2" class="example-list" cdkDropList [cdkDropListConnectedTo]="[box1]" (cdkDropListDropped)="drop($event)">
+      <div #box3="cdkDropList" [cdkDropListData]="testArray2" class="example-list" cdkDropList (cdkDropListDropped)="drop($event)">
         <div class="example-box" cdkDrag *ngFor="let test of testArray2">{{test}}</div>
       </div>
     </div>
