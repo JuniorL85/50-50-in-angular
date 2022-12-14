@@ -1,3 +1,11 @@
+:host::ng-deep {
+
+  .kinetic::after,
+  .kinetic::before {
+    content: '';
+    border-bottom-color: #22254b!important;
+  }
+}
 
 $primary-color: #22254b;
 $secondary-color: #373b69;

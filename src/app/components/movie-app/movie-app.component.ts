@@ -28,8 +28,10 @@ export class MovieAppComponent implements OnInit {
     this.showLoader = true;
     this.movieService.getMovies().subscribe({
       next: res => {
-      this.movies = res.results;
-      this.showLoader = false;
+        setTimeout(() => {
+          this.movies = res.results;
+          this.showLoader = false;
+        }, 2500);
       },
       error: () => {
         this.showError = true;
