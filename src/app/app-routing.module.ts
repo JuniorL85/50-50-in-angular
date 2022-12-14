@@ -6,6 +6,7 @@ import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loadi
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
+import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
 import { EventKeycodesComponent } from './components/event-keycodes/event-keycodes.component';
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
@@ -47,6 +48,7 @@ const routes: Routes = [
   { path: 'theme-clock', component: ThemeClockComponent },
   { path: 'button-ripple', component: ButtonRippleComponent },
   { path: 'drag-n-drop', component: DragNDropComponent },
+  { path: 'drawing', component: DrawingAppComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 

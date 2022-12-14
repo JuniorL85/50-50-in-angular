@@ -33,6 +33,7 @@ import { ErrorMessageComponent } from './components/error-message/error-message.
 import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
+import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.compone
     ErrorMessageComponent,
     ThemeClockComponent,
     ButtonRippleComponent,
-    DragNDropComponent
+    DragNDropComponent,
+    DrawingAppComponent
   ],
   imports: [
     BrowserModule,

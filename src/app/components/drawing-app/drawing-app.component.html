@@ -1,0 +1,16 @@
+<canvas
+  id="canvas"
+  width="800"
+  height="700"
+  (mousedown)="beginDrawing($event)"
+  (mouseup)="stopDrawing()"
+  (mousemove)="draw($event)">
+</canvas>
+
+<div class="toolbox">
+  <button id="decrease" (click)="decrease()">-</button>
+  <span id="size">10</span>
+  <button id="increase" (click)="increase()">+</button>
+  <input type="color" id="color" (change)="changeColor($event)">
+  <button id="clear" (click)="clear()">X</button>
+</div>
