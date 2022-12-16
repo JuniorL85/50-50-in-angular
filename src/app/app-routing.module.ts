@@ -4,6 +4,7 @@ import { AnimatedNavigationComponent } from './components/animated-navigation/an
 import { BackgroundSliderComponent } from './components/background-slider/background-slider.component';
 import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loading.component';
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
+import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
@@ -51,6 +52,7 @@ const routes: Routes = [
   { path: 'drag-n-drop', component: DragNDropComponent },
   { path: 'drawing', component: DrawingAppComponent },
   { path: 'kinetic-loader', component: KineticLoaderComponent },
+  { path: 'content-placeholder', component: ContentPlaceholderComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 

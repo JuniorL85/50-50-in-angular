@@ -35,6 +35,7 @@ import { ButtonRippleComponent } from './components/button-ripple/button-ripple.
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
 import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
+import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-load
     ButtonRippleComponent,
     DragNDropComponent,
     DrawingAppComponent,
-    KineticLoaderComponent
+    KineticLoaderComponent,
+    ContentPlaceholderComponent
   ],
   imports: [
     BrowserModule,
