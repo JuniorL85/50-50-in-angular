@@ -36,6 +36,7 @@ import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.compone
 import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
 import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
 import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
+import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { ContentPlaceholderComponent } from './components/content-placeholder/co
     DragNDropComponent,
     DrawingAppComponent,
     KineticLoaderComponent,
-    ContentPlaceholderComponent
+    ContentPlaceholderComponent,
+    StickyNavbarComponent
   ],
   imports: [
     BrowserModule,

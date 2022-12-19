@@ -24,6 +24,7 @@ import { ScrollAnimationComponent } from './components/scroll-animation/scroll-a
 import { SoundBoardComponent } from './components/sound-board/sound-board.component';
 import { SplitLandingPageComponent } from './components/split-landing-page/split-landing-page.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
+import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
 import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 
@@ -53,6 +54,7 @@ const routes: Routes = [
   { path: 'drawing', component: DrawingAppComponent },
   { path: 'kinetic-loader', component: KineticLoaderComponent },
   { path: 'content-placeholder', component: ContentPlaceholderComponent },
+  { path: 'sticky-navbar', component: StickyNavbarComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
 ];
 
