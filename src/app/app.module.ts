@@ -37,6 +37,7 @@ import { DrawingAppComponent } from './components/drawing-app/drawing-app.compon
 import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
 import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
 import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
+import { ToastNotificationComponent } from './components/toast-notification/toast-notification.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.
     DrawingAppComponent,
     KineticLoaderComponent,
     ContentPlaceholderComponent,
-    StickyNavbarComponent
+    StickyNavbarComponent,
+    ToastNotificationComponent
   ],
   imports: [
     BrowserModule,

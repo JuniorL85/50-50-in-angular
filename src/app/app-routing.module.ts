@@ -26,6 +26,7 @@ import { SplitLandingPageComponent } from './components/split-landing-page/split
 import { StartPageComponent } from './components/start-page/start-page.component';
 import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
 import { ThemeClockComponent } from './components/theme-clock/theme-clock.component';
+import { ToastNotificationComponent } from './components/toast-notification/toast-notification.component';
 import { VerticalSliderComponent } from './components/vertical-slider/vertical-slider.component';
 
 const routes: Routes = [
@@ -56,6 +57,7 @@ const routes: Routes = [
   { path: 'content-placeholder', component: ContentPlaceholderComponent },
   { path: 'sticky-navbar', component: StickyNavbarComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
+  { path: 'toast-notification', component: ToastNotificationComponent },
 ];
 
 @NgModule({
