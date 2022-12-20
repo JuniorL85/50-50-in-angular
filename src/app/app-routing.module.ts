@@ -13,6 +13,7 @@ import { EventKeycodesComponent } from './components/event-keycodes/event-keycod
 import { ExpandingCardsComponent } from './components/expanding-cards/expanding-cards.component';
 import { FaqBoxesComponent } from './components/faq-boxes/faq-boxes.component';
 import { FormWaveComponent } from './components/form-wave/form-wave.component';
+import { GithubProfilesComponent } from './components/github-profiles/github-profiles.component';
 import { HiddenSearchWidgetComponent } from './components/hidden-search-widget/hidden-search-widget.component';
 import { IncrementingCounterComponent } from './components/incrementing-counter/incrementing-counter.component';
 import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-loader.component';
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'sticky-navbar', component: StickyNavbarComponent },
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'toast-notification', component: ToastNotificationComponent },
+  { path: 'github-profiles', component: GithubProfilesComponent },
 ];
 
 @NgModule({

@@ -38,6 +38,7 @@ import { KineticLoaderComponent } from './components/kinetic-loader/kinetic-load
 import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
 import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
 import { ToastNotificationComponent } from './components/toast-notification/toast-notification.component';
+import { GithubProfilesComponent } from './components/github-profiles/github-profiles.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { ToastNotificationComponent } from './components/toast-notification/toas
     KineticLoaderComponent,
     ContentPlaceholderComponent,
     StickyNavbarComponent,
-    ToastNotificationComponent
+    ToastNotificationComponent,
+    GithubProfilesComponent
   ],
   imports: [
     BrowserModule,
