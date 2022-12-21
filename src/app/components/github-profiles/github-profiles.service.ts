@@ -15,4 +15,8 @@ export class GithubProfilesService {
   getGithubUser(username: string): Observable<IUserData> {
     return this.http.get<IUserData>(`${this.baseUrl}${username}`);
   }
+
+  getGithubUserRepos(username: string): Observable<any> {
+    return this.http.get<any>(`${this.baseUrl}${username}/repos`);
+  }
 }
