@@ -17,6 +17,6 @@ export class GithubProfilesService {
   }
 
   getGithubUserRepos(username: string): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}${username}/repos`);
+    return this.http.get<any>(`${this.baseUrl}${username}/repos?sort=created`);
   }
 }
