@@ -39,6 +39,7 @@ import { ContentPlaceholderComponent } from './components/content-placeholder/co
 import { StickyNavbarComponent } from './components/sticky-navbar/sticky-navbar.component';
 import { ToastNotificationComponent } from './components/toast-notification/toast-notification.component';
 import { GithubProfilesComponent } from './components/github-profiles/github-profiles.component';
+import { DoubleClickHeartComponent } from './components/double-click-heart/double-click-heart.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { GithubProfilesComponent } from './components/github-profiles/github-pro
     ContentPlaceholderComponent,
     StickyNavbarComponent,
     ToastNotificationComponent,
-    GithubProfilesComponent
+    GithubProfilesComponent,
+    DoubleClickHeartComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { BlurryLoadingComponent } from './components/blurry-loading/blurry-loadi
 import { ButtonRippleComponent } from './components/button-ripple/button-ripple.component';
 import { ContentPlaceholderComponent } from './components/content-placeholder/content-placeholder.component';
 import { DadJokesComponent } from './components/dad-jokes/dad-jokes.component';
+import { DoubleClickHeartComponent } from './components/double-click-heart/double-click-heart.component';
 import { DragNDropComponent } from './components/drag-n-drop/drag-n-drop.component';
 import { DrawingAppComponent } from './components/drawing-app/drawing-app.component';
 import { DrinkWaterComponent } from './components/drink-water/drink-water.component';
@@ -60,6 +61,7 @@ const routes: Routes = [
   { path: 'vertical-slider', component: VerticalSliderComponent },
   { path: 'toast-notification', component: ToastNotificationComponent },
   { path: 'github-profiles', component: GithubProfilesComponent },
+  { path: 'double-click-heart', component: DoubleClickHeartComponent },
 ];
 
 @NgModule({

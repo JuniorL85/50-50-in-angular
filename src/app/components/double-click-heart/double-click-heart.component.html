@@ -1,0 +1,6 @@
+<h3>Double click on the image to <fa-icon class="fa-heart" icon="heart"></fa-icon> it</h3>
+<small>You liked it <span id="times">{{timesClicked}}</span> times</small>
+
+<div class="loveMe" (dblclick)="createHeart()">
+  <fa-icon icon="heart" size="10x" class="fa-heart" style="top: 236px;" *ngIf="liked"></fa-icon>
+</div>
